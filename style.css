@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: gray;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    padding-right: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: monospace;
+    font-style: bold;
+    padding-left: 3rem;
+}
+main {
+
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1rem;
+}
+
+#middle {
+    display: flex;
+}
+
+#middle img {
+    padding: 1rem;
+
+}
+
+#top {
+    display: flex;
+}
+
+#top img {
+    padding: 1rem;
+}
