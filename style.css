@@ -5,12 +5,12 @@ body {
 header {
     background-color: gray;
     display: flex;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 2rem;
-    padding-right: 3rem;
 }
 
 h1 {
@@ -42,4 +42,46 @@ main {
 
 #top img {
     padding: 1rem;
+}
+
+#bottom {
+    display: flex;
+}
+
+#bottom {
+    padding: 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#featured {
+    padding-left: 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+h2 {
+    font-size: large;
+    padding-bottom: 1rem;
+}
+
+#featured p {
+    height: 20rem;
+    overflow-y: scroll;
+    padding-bottom: 1rem;
+    width: 29.5rem
+}
+
+#button {
+    color: white;
+    background-color: black;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+footer {
+    background-color: gray;
+    padding: 4rem
 }
