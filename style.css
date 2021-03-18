@@ -1,7 +1,7 @@
-html {
+/* html {
     width: 1200px;
     margin:auto;
-}
+} */
 
 body {
     font-family: sans-serif;
@@ -20,12 +20,22 @@ header {
 
 .header {
     padding-right: 1rem;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     width: 450px;
 }
 
+nav {
+    display: flex;
+    width: 980px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    align-items: center;
+}
+
 img.header {
-    padding-left: 8.5rem;
+    /* padding-left: 8.5rem; */
+    height: 70px;
+    width: 200px;
 }
 
 p.header {
@@ -38,8 +48,8 @@ h1 {
     padding-left: 3rem;
 }
 main {
-
-    width: 80%;
+    /* background-color: red; */
+    width: 980px;
     margin: 0 auto;
     align-items: center;
     padding-top: 1rem;
@@ -48,15 +58,19 @@ main {
 
 #middle {
     display: flex;
+    width: 960px;
 }
 
-#middle img {
-    padding: 1rem;
 
+#middle img {
+    padding-right: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #top {
     display: flex;
+    margin: 0 auto;
 }
 
 #top img {
@@ -68,7 +82,9 @@ main {
 }
 
 #bottom {
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
     justify-content: space-between;
     width: 100%;
 }
@@ -87,7 +103,7 @@ h2 {
     height: 20rem;
     overflow-y: scroll;
     padding-bottom: 1rem;
-    width: 29.5rem
+    width: 29rem
 }
 
 button {
